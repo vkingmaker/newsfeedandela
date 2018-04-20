@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Make Asynchronous Requests</title>
+    <meta charset="utf-8">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link href="css/font-awesome.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
+</head>
+<body>
+
+    <header class="masthead">
+        <h1>What are you interested in today?</h1>
+
+        <div class="site-container">
+            <form id="search-form" action="#">
+                <label for="search-keyword" class="visuallyhidden">What are you interested in today?</label>
+                <select id="search-keyword" type="text" name="search-keyword">
+                    <option value="">Please select source of News</option>
+                    <option value="country">Country</option>
+                    <option value="category">Category</option>
+                </select>
+                <select id="search-keyword1" type="text" name="search-keyword">
+                    <option value="#">Select a more specific source</option>
+                </select>
+                <input id="submit-btn" type="submit" value="Submit">
+            </form>
+        </div>
+    </header>
+
+    <div class="site-container">
+        <div id="response-container"></div>
+    </div>
+    <script src="jquery-3.3.1.js"></script>
+     <script src="idb.js"></script> 
+    <script src="app.js"></script>
+    <script>
+//        $(function(){
+//         $('p').each(function(){
+//             $(this).after('<input type="radio" class="favorite">');
+//         })
+//     })
+    </script>
+</body>
+</html>
